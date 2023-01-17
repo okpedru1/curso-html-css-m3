@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(assets/wallpaper003.jpg);
+    background-position: center center;
+    height: 100vh;
+}
