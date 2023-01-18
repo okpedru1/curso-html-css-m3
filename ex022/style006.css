@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1410/Best_Nature_Views-Scenery_HD_Wallpaper_1366x768.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+header {
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(36, 36, 36);
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 3px 5px 5px;
+}
