@@ -4,24 +4,33 @@
 }
 
 body {
-    background-color: black;
+    /*background-color: black;
     background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1410/Best_Nature_Views-Scenery_HD_Wallpaper_1366x768.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    background-attachment: fixed;*/
+
+    background: black url(https://www.10wallpaper.com/wallpaper/1366x768/1410/Best_Nature_Views-Scenery_HD_Wallpaper_1366x768.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+p{
+    font-size: 20px; text-align: justify;
 }
 
 header {
-    margin-bottom: 40px;
+    box-shadow: 1px 6px;
+    margin-bottom: 20px;
     padding: 20px;
     text-align: center;
     color: rgb(36, 36, 36);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 255, 154);
 }
 
 main {
     background-color: rgb(255, 255, 255);
-    width: 400px;
+    max-width: 600px;
     padding: 20px;
     margin: auto;
     border-radius: 30px;
