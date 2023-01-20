@@ -1,0 +1,19 @@
+#container{
+    position: relative;
+    height: 500px;
+    background-color: rgb(222, 238, 0);
+    padding: 10px;
+
+}
+
+#conteudo{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(135, 69, 211);
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
