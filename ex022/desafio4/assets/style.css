@@ -60,6 +60,13 @@ section{
     line-height: 2em;
     font-family: var(--fonte3);
     font-size: 1.3em;
+
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section p{
+    padding-bottom: 2em;
 }
 
 section.normal{
@@ -68,13 +75,25 @@ section.normal{
 }
 
 section.image{
-    background-color: rgb(49, 49, 49);
+    background-color: rgba(0, 0, 0, 0.863);
     color: white;
     padding: 10px;
 }
 
 section.image p{
-    background-color: rgba(0, 0, 0, 0.288);
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+section#img01{
+    background-image: url(https://img.elo7.com.br/product/original/285B82A/adesivo-de-parede-cordel-norte-nordeste-1-metro-xilogravura-banheiro.jpg);
+    background-position: top center;
+   
+}
+
+section#img02{
+    background-image: url(https://fazendoanossafesta.com.br/wp-content/uploads/2022/06/Painel-para-Televisao-Tema-Cordel.jpg);
+    background-position: right center;
+   
 }
 
 
